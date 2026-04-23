@@ -1,5 +1,5 @@
 name: 'Download and configure Kernel Source code'
-
+description: 'Downloads and configures Kernel Source code based on the provided manifest'
 inputs:
   source_location:
     description: 'Folder path to save Kernel source'
