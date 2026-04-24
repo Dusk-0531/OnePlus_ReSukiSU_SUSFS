@@ -470,7 +470,6 @@ jobs:
           ## ✨ Features & Capabilities
           
           ### 🚀 Performance & Networking
-          - **BBRv1** - Improved TCP congestion control
           - **Wireguard** - Built-in VPN support
           - **IP Set & IPv6 NAT Support** - Advanced firewall capabilities and IPv6 NAT Support
           - **TTL Target Support** - Network packet manipulation
@@ -484,7 +483,6 @@ jobs:
           - **HMBIRD SCX** - Scheduler extensions for SM8750
           - **Droidspaces** - Support Portable Linux containers to run full Linux environments.
           - **NTSync** - Provide high-performance, low-latency synchronization primitives compatible with the Windows NT kernel API
-          - **Unicode Fix** - Prevent path traversal and other detections using non-printable Unicode codepoints [Experimental]
           
           ---
           

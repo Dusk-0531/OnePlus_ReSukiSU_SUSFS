@@ -16,10 +16,10 @@
   "hmbird": true,
   "ds": true,
   "bbg": true,
-  "bbr": true,
+  "bbr": false,
   "ttl": true,
   "ip_set": true,
-  "unicode": true,
+  "unicode": false,
   "ntsync": true,
   "uname": "OP-WILD"
 }
