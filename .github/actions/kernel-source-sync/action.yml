@@ -112,8 +112,12 @@ runs:
                     asset_data = get_release_parts(label, rev)
                     
                     if not asset_data:
-                        print(f"  [ERROR] No assets found for {base_filename} in release!")
-                        return False
+                        print(f"  [FALLBACK] No cache found for {base_filename}, downloading directly from source: {url}")
+                        cmd = f"curl -LfsS {headers} --retry 5 --connect-timeout 30 '{url}' | tar -I 'pigz -p {NPROC} -b 256' -x --record-size=1M --no-same-owner --no-same-permissions -C {path} {strip}"
+                        subprocess.run(cmd, shell=True, check=True)
+                        duration = time.time() - start_time
+                        print(f"Synced {name} successfully via direct download! ({duration:.2f}s)")
+                        return True
                     
                     if DEBUG:
                         print(f"  [CACHE] Fetching {label} toolchain: {base_filename}...")
