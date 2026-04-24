@@ -20,7 +20,7 @@
   </tr>
 </table>
 
- - If your device is not in list, please select the device which is most similar and matches the kernel version (androidXX-YY.ZZ.AAA). AAA must be atleast same or greater. XX-YY.ZZ must match exactly. More Information on this can be read @<a href="https://kernelsu.org/guide/installation.html#kmi">KernelSU.org</a>.
+ - If your device is not in list, please select the device which is most similar and matches the kernel version (androidXX-YY.ZZ.AAA). AAA must be atleast same or greater. XX-YY.ZZ must match exactly.
  - Thanks to our community users at <a href="https://t.me/huangdihd_wildkernel">WildKernels</a> for helping us compile the list.
  - We request more users come forward help us keep the list updated. 
  - I'm sure more devices from other brands are also supported.

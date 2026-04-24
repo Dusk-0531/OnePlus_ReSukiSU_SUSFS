@@ -72,12 +72,10 @@ body:
   - type: dropdown
     id: manager_type
     attributes:
-      label: Manager Type
+      label: Root Manager Type (if any)
       options:
-        - KernelSU-Next
-        - KernelSU
-        - WildKSU
-        - pershoot KSUN
+        - None (vanilla kernel)
+        - Other
     validations:
       required: true
 
