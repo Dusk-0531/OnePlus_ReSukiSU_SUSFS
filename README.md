@@ -47,13 +47,11 @@ Flashing this kernel will not void your warranty, but there is always a risk of 
 
 - 🛡️ **BBG**: LSM-based Baseband Guard security to protect critical device partitions
 - 🛠️ **HMBIRD SCX**: Scheduler extensions for SM8750 devices
-- 🖧 **BBRv1**: Improved TCP congestion control
 - ✅ **LTO**: Link Time Optimisation enabled
 - 🚀 **Optimisation patches**: Memory, I/O, CPU scheduler, network and other general tunings
 - 🌐 **TTL Target Support**: Network packet manipulation
 - 🧱 **IP Set & IPv6 NAT Support**: Advanced firewall capabilities and IPv6 NAT Support
 - ⚡️ **TMPFS XATTR / POSIX ACL**: Extended TMPFS support for meta modules and Mountify
-- </> **Unicode Bypass Fix**: Prevent path traversal and other detections using non-printable Unicode codepoints [Experimental]
 - 🖥️ **Droidspaces Support**: Support Portable Linux containers to run full Linux environments.
 - 🔃 **NTSync**: Provide high-performance, low-latency synchronization primitives compatible with the Windows NT kernel API
 
