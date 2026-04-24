@@ -1,10 +1,7 @@
 <div align="center">
 
-# 🔥 Huangdihd's Fork of Wild Kernels for OnePlus (Oppo/Realme)
+# 🔥 OnePlus ACE5 Pro OOS16 Kernel
 
-[![KernelSU](https://img.shields.io/badge/KernelSU-Supported-green)](https://kernelsu.org/)
-[![ReSukiSU](https://img.shields.io/badge/ReSukiSU-Supported-green)](https://resukisu.github.io/)
-[![SUSFS](https://img.shields.io/badge/SUSFS-Integrated-orange)](https://gitlab.com/simonpunk/susfs4ksu)
 [![OnePlusOSS Tracking Status](https://img.shields.io/badge/OnePlusOSS--Tracker-active-green)](https://github.com/WildKernels/OnePlus_KernelSU_SUSFS/blob/status-page/README.md)
 
 </div>
@@ -31,17 +28,11 @@ Flashing this kernel will not void your warranty, but there is always a risk of 
 
 ---
 
-## 🔧 Available Kernels
+## 📱 Supported Device
 
-<div align="center">
-
-| Kernel | Repository | Status |
-|--------|------------|--------|
-| 🏗️ **GKI** | [GKI_KernelSU_SUSFS](https://github.com/WildKernels/GKI_KernelSU_SUSFS) | ✅ Active |
-| 👑 **Sultan** | [Sultan_KernelSU_SUSFS](https://github.com/WildKernels/Sultan_KernelSU_SUSFS) | ✅ Active |
-| 📱 **OnePlus/Oppo/Realme** | [OnePlus_KernelSU_SUSFS](https://github.com/WildKernels/OnePlus_KernelSU_SUSFS) | ✅ Active |
-| 📱 **Samsung** | [Samsung_KernelSU_SUSFS](https://github.com/WildKernels/Samsung_KernelSU_SUSFS) | ✅ Active |
-</div>
+| Device | OS Version | Android Version | Kernel |
+|--------|-----------|----------------|--------|
+| OnePlus ACE5 Pro | OOS16 | Android 15 | 6.6 |
 
 ---
 
@@ -52,24 +43,10 @@ Flashing this kernel will not void your warranty, but there is always a risk of 
 
 ---
 
-## 📱 Device Compatibility
-
-- Please verify the device compatibility before flashing here: [Compatibility_Info](https://github.com/WildKernels/OnePlus_KernelSU_SUSFS/blob/main/compatibility.md). 
-
----
-
-## 📱 OnePlusOSS Repositories Tracking
-
-- 📊 **Live Dashboard**: [OnePlus Repos Tracking & Changes](https://github.com/WildKernels/OnePlus_KernelSU_SUSFS/blob/status-page/README.md)
-- ⏱️ **Update Frequency**: Every 2 hours (Automated)
----
-
 ## ✨ Features
 
-- 🔐 **ReSukiSU**: Kernel-based Android Root Solution,forked from sukisu
-- 🥷 **SUSFS**: An addon root hiding kernel patches and userspace module for KernelSU
 - 🛡️ **BBG**: LSM-based Baseband Guard security to protect critical device partitions
-- 🛠️ **HMBIRD SCX**: Scheduler extensions for SM8750/MT6991 devices
+- 🛠️ **HMBIRD SCX**: Scheduler extensions for SM8750 devices
 - 🖧 **BBRv1**: Improved TCP congestion control
 - ✅ **LTO**: Link Time Optimisation enabled
 - 🚀 **Optimisation patches**: Memory, I/O, CPU scheduler, network and other general tunings
@@ -84,17 +61,10 @@ Flashing this kernel will not void your warranty, but there is always a risk of 
 
 ## 📋 Installation Instructions
 
-- **KernelSU**: Developed by [tiann](https://github.com/tiann/KernelSU).
-- **ReSukiSU**: Developed by [ReSukiSU Team](https://github.com/ReSukiSU/ReSukiSU)
-- **Magic-KSU**: Developed by [5ec1cff](https://github.com/5ec1cff/KernelSU).  
-- **SUSFS**: Developed by [simonpunk](https://gitlab.com/simonpunk/susfs4ksu.git).
-- **SUSFS Module**: Developed by [sidex15](https://github.com/sidex15).
-- **Sultan Kernels**: Developed by [kerneltoast](https://github.com/kerneltoast).
-For GKI installation, please follow the official guide:
-
-📖 **[KernelSU Installation Guide](https://kernelsu.org/guide/installation.html)**
-
-You can also find Installation instructions in the release notes.
+### Via Kernel Flasher
+1. Download the ZIP file from the [Releases](../../releases) page.
+2. Flash the ZIP file using [Kernel Flasher](https://github.com/fatalcoder524/KernelFlasher).
+3. Reboot your device.
 
 ---
 
@@ -104,17 +74,11 @@ You can also find Installation instructions in the release notes.
 
 <div align="center">
 
-
 | 🔧 **Project** | 👨‍💻 **Developer** | 🔗 **Link** |
 |:---------------:|:----------------:|:-----------:|
-| **KernelSU** | tiann | [![GitHub](https://img.shields.io/badge/GitHub-tiann-blue?style=flat-square&logo=github)](https://github.com/tiann/KernelSU) |
-| **ReSukiSU** | resukisu | [![GitHub](https://img.shields.io/badge/GitHub-resukisu-blue?style=flat-square&logo=github)](https://github.com/ReSukiSU/ReSukiSU) |
-| **Magic-KSU** | 5ec1cff | [![GitHub](https://img.shields.io/badge/GitHub-5ec1cff-blue?style=flat-square&logo=github)](https://github.com/5ec1cff/KernelSU) |
-| **SUSFS** | simonpunk | [![GitLab](https://img.shields.io/badge/GitLab-simonpunk-orange?style=flat-square&logo=gitlab)](https://gitlab.com/simonpunk/susfs4ksu.git) |
-| **SUSFS Module** | sidex15 | [![GitHub](https://img.shields.io/badge/GitHub-sidex15-blue?style=flat-square&logo=github)](https://github.com/sidex15) |
-| **Sultan Kernels** | kerneltoast | [![GitHub](https://img.shields.io/badge/GitHub-kerneltoast-blue?style=flat-square&logo=github)](https://github.com/kerneltoast) |
 | **Baseband Guard** | vc-teahouse | [![GitHub](https://img.shields.io/badge/GitHub-vc--teahouse-blue?style=flat-square&logo=github)](https://github.com/vc-teahouse/Baseband-guard.git) |
 | **Droidspaces** | ravindu644 | [![GitHub](https://img.shields.io/badge/GitHub-ravindu644-blue?style=flat-square&logo=github)](https://github.com/ravindu644/Droidspaces-OSS.git) |
+| **Kernel Flasher** | fatalcoder524 | [![GitHub](https://img.shields.io/badge/GitHub-fatalcoder524-blue?style=flat-square&logo=github)](https://github.com/fatalcoder524/KernelFlasher) |
 
 </div>
 
@@ -148,4 +112,3 @@ Any and all donations are appreciated!
 PayPal: [paypal.me/fatalcoder524](https://paypal.me/fatalcoder524)
 
 DM on Telegram for UPI donations!
-
